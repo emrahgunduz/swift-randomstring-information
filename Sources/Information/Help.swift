@@ -24,9 +24,9 @@ let HELP = """
                                    defined, output will be dumped to a file in /tmp folder.
     
     <y>-f     --file <g>................ <w>Optional. Loads a file containing a simple list of 
-                                   already existing randomized string. Every single line in file
-                                   is used as a unique string. Longer than defined length 
-                                   strings will be truncated.
+                                   already existing randomized string. Every single line in
+                                   file is used as a unique string. Longer than defined 
+                                   length strings will be truncated.
     </>
 
 """
