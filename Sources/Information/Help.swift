@@ -4,7 +4,7 @@ let HELP = """
     <w>
     This tool generates a given number of random strings. It has the capability to load
     a previous list for uniqueness. Length and the contents of the string can be set to
-    alphanumeric values (in ranges of a-z,A-Z,0-9).
+    alphanumeric values (in ranges of a-z,A-Z,0-9) or UTF8/16 can be used.
     
     <y>USAGE:
     
