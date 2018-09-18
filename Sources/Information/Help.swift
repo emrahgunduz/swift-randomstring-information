@@ -4,7 +4,7 @@ let HELP = """
     <w>
     This tool generates a given number of random strings. It has the capability to load
     a previous list for uniqueness. Length and the contents of the string can be set to
-    alphanumeric values (in ranges of a-z,A-Z,0-9) or UTF8/16 can be used.
+    alphanumeric values (in ranges of a-z,A-Z,0-9) or UTF8 can be used.
     
     <y>USAGE:
     
@@ -20,6 +20,12 @@ let HELP = """
                                    generate at the end. This does not include the number
                                    of items already loaded via a file if requested.
                                    Default value is 100.
+
+    <y>-s     --set <g>................. <w>Optional. Content of the random strings will be 
+                                   generated from this character set. Simply define all the 
+                                   charactes you need into one single word. The characters
+                                   will be made unique, if already is not. 
+                                   Default value is ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789
     
     <y>-o     --out <g>................. <w>Optional. A file to write the generated codes to. 
                                    Every code is written as a single line. If a file is not
