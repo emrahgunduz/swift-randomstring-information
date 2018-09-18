@@ -13,11 +13,13 @@ let HELP = """
     <y>Options                        Description
     <y>-h     --help <g>................ <w>Prints this help screen.
     
-    <y>-l     --length <g>.............. <w>Length of the generated string.
+    <y>-l     --length <g>.............. <w>Optional. Length of the generated string.
+                                   Default value is 8.
     
-    <y>-c     --count <g>............... <w>Count of the unique numbers you want to generate at the
-                                   end. This does not include the number of items already
-                                   loaded via a file if requested.
+    <y>-c     --count <g>............... <w>Optional. Count of the unique numbers you want to
+                                   generate at the end. This does not include the number
+                                   of items already loaded via a file if requested.
+                                   Default value is 100.
     
     <y>-o     --out <g>................. <w>Optional. A file to write the generated codes to. 
                                    Every code is written as a single line. If a file is not
