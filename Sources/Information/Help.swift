@@ -30,8 +30,10 @@ let HELP = """
     <y>-o     --out <g>................. <w>Optional. A file to write the generated codes to. 
                                    Every code is written as a single line. If a file is not
                                    defined, output will be dumped to a file in /tmp folder.
-                                   Application appends to the file, does not replace the 
-                                   contents. If file does not exists, it is created.
+                                   Application overwrites to the file, does not append.
+                                   If file does not exists, it is created.
+                                   If an input file is defined, it's contents will be appended
+                                   to the output file.
     
     <y>-f     --file <g>................ <w>Optional. Loads a file containing a simple list of 
                                    already existing randomized string. Every single line in
