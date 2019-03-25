@@ -8,7 +8,7 @@ let package = Package(
       .library(name: "Information", targets: ["Information"])
     ],
     dependencies: [
-      .package(url: "git@git.markakod.com:letters-game/swift-app-trie-dictionary/library-log.git", from:"1.0.0")
+      .package(url: "git@github.com:emrahgunduz/swift-randomstring-log.git", from:"1.0.0")
     ],
     targets: [
       .target(name: "Information", dependencies: ["Log"])
